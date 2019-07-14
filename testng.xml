@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter="Browser">
+  <test  name="chromeTest">
+    <classes>
+      <class name="com.prl.AppTest"/>
+    </classes>
+  </test> 
+   <test  name="IETest">
+    <classes>
+      <class name="com.prl.AppTest"/>
+    </classes>
+  </test> 
+</suite> 
